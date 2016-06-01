@@ -25,4 +25,4 @@ We should create one R script called run_analysis that does the following:
 
 ## Additional Information
 
-Of course, one cannot have a clear idea of all this with additional and deep details, those can be found on the Codebook.MD included in this repo.
+Of course, one cannot have a clear idea of all this without additional and deep details, those can be found on the Codebook.MD included in this repo.

@@ -64,5 +64,5 @@ names(alldata) <- worknames
 #                set with the average of each variable for each activity and each subject. 
 #
 newalldata <- alldata %>% group_by(subject, activity) %>% summarise_each(funs(mean))
-write.csv(newalldata, file = "tidydataset.csv", row.names=FALSE)
+write.table(newalldata, file = "tidydataset.txt", row.name=FALSE)
 #
